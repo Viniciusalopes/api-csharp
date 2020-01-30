@@ -9,7 +9,6 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using PessoaApi.Models;
 using PessoaApi.CustomJsonResult;
-using Microsoft.AspNetCore.Authorization;
 
 namespace PessoaApi.Controllers
 {
@@ -55,7 +54,6 @@ namespace PessoaApi.Controllers
         #region READ
 
         // GET: api/Pessoas
-        
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Pessoa>>> GetPessoas()
         {

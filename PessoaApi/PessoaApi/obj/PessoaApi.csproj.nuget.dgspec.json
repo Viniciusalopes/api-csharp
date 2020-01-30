@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Vinicius\\projetos\\api-csharp\\PessoaApi\\PessoaApi\\PessoaApi.csproj": {}
+    "C:\\Users\\Vinicius\\projetos\\api-csharp\\PessoaApi - Copia\\PessoaApi\\PessoaApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Vinicius\\projetos\\api-csharp\\PessoaApi\\PessoaApi\\PessoaApi.csproj": {
+    "C:\\Users\\Vinicius\\projetos\\api-csharp\\PessoaApi - Copia\\PessoaApi\\PessoaApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vinicius\\projetos\\api-csharp\\PessoaApi\\PessoaApi\\PessoaApi.csproj",
+        "projectUniqueName": "C:\\Users\\Vinicius\\projetos\\api-csharp\\PessoaApi - Copia\\PessoaApi\\PessoaApi.csproj",
         "projectName": "PessoaApi",
-        "projectPath": "C:\\Users\\Vinicius\\projetos\\api-csharp\\PessoaApi\\PessoaApi\\PessoaApi.csproj",
+        "projectPath": "C:\\Users\\Vinicius\\projetos\\api-csharp\\PessoaApi - Copia\\PessoaApi\\PessoaApi.csproj",
         "packagesPath": "C:\\Users\\Vinicius\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vinicius\\projetos\\api-csharp\\PessoaApi\\PessoaApi\\obj\\",
+        "outputPath": "C:\\Users\\Vinicius\\projetos\\api-csharp\\PessoaApi - Copia\\PessoaApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Vinicius\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -38,14 +38,6 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
-            "Microsoft.AspNetCore.Authentication.JwtBearer": {
-              "target": "Package",
-              "version": "[3.1.1, )"
-            },
-            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[3.1.1, )"
-            },
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
               "version": "[3.1.1, )"
@@ -71,10 +63,6 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[3.1.0, )"
-            },
-            "System.IdentityModel.Tokens.Jwt": {
-              "target": "Package",
-              "version": "[5.6.0, )"
             }
           },
           "imports": [
