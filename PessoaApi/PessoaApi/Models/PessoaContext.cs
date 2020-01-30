@@ -14,5 +14,6 @@ namespace PessoaApi.Models
         }
 
         public DbSet<Pessoa> Pessoas { get; set; }
+
     }
 }
