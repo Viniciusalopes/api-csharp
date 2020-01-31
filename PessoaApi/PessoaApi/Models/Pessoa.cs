@@ -1,9 +1,6 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 using PessoaApi.CustomValidation;
-//using System.Collections.Generic;
-//using System.Linq;
-//using System.Threading.Tasks;
 
 namespace PessoaApi.Models
 {

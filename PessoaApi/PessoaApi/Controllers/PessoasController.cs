@@ -17,7 +17,6 @@ namespace PessoaApi.Controllers
     public class PessoasController : ControllerBase
     {
         private readonly PessoaContext _context;
-
         public PessoasController(PessoaContext context)
         {
             _context = context;

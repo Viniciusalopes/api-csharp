@@ -2,7 +2,6 @@
 using Microsoft.AspNetCore.Authorization;
 using PessoaApi.Services;
 using PessoaApi.Models;
-//using System.Linq;
 
 namespace PessoaApi.Controllers
 {
