@@ -1,7 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿//using System;
+//using System.Collections.Generic;
+//using System.Linq;
+//using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
 
 namespace PessoaApi.CustomValidation
@@ -41,10 +41,10 @@ namespace PessoaApi.CustomValidation
                 }
             }
 
-            //if(cpf == "12345678909")
-            //{
-            //    return false;
-            //}
+            if(cpf == "12345678909")
+            {
+                return false;
+            }
 
             string tempCpf = cpf.Substring(0, 9);
             int soma = 0;

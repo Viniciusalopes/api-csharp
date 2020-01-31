@@ -2,11 +2,12 @@
 using Microsoft.AspNetCore.Authorization;
 using PessoaApi.Services;
 using PessoaApi.Models;
-using System.Linq;
+//using System.Linq;
 
 namespace PessoaApi.Controllers
 {
-    [Authorize]
+    // [Authorize]
+    // Comentado porque não consegui implementar a autorização
     [ApiController]
     [Route("[controller]")]
     public class UsersController : ControllerBase
