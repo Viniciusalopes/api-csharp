@@ -286,10 +286,17 @@ C:\Users\Vinicius\projetos\api-csharp\PessoaApi - Copia\PessoaApi\obj\Debug\netc
 C:\Users\Vinicius\projetos\api-csharp\PessoaApi - Copia\PessoaApi\obj\Debug\netcoreapp3.1\PessoaApi.csproj.CopyComplete
 C:\Users\Vinicius\projetos\api-csharp\PessoaApi - Copia\PessoaApi\obj\Debug\netcoreapp3.1\PessoaApi.dll
 C:\Users\Vinicius\projetos\api-csharp\PessoaApi - Copia\PessoaApi\obj\Debug\netcoreapp3.1\PessoaApi.pdb
+C:\Users\Vinicius\projetos\globaltec\api-csharp\PessoaApi\PessoaApi\obj\Debug\netcoreapp3.1\PessoaApi.csprojAssemblyReference.cache
+C:\Users\Vinicius\projetos\globaltec\api-csharp\PessoaApi\PessoaApi\obj\Debug\netcoreapp3.1\staticwebassets\PessoaApi.StaticWebAssets.Manifest.cache
+C:\Users\Vinicius\projetos\globaltec\api-csharp\PessoaApi\PessoaApi\obj\Debug\netcoreapp3.1\staticwebassets\PessoaApi.StaticWebAssets.xml
+C:\Users\Vinicius\projetos\globaltec\api-csharp\PessoaApi\PessoaApi\obj\Debug\netcoreapp3.1\PessoaApi.AssemblyInfoInputs.cache
+C:\Users\Vinicius\projetos\globaltec\api-csharp\PessoaApi\PessoaApi\obj\Debug\netcoreapp3.1\PessoaApi.AssemblyInfo.cs
+C:\Users\Vinicius\projetos\globaltec\api-csharp\PessoaApi\PessoaApi\obj\Debug\netcoreapp3.1\PessoaApi.dll
+C:\Users\Vinicius\projetos\globaltec\api-csharp\PessoaApi\PessoaApi\obj\Debug\netcoreapp3.1\PessoaApi.pdb
 C:\Users\Vinicius\projetos\globaltec\api-csharp\PessoaApi\PessoaApi\bin\Debug\netcoreapp3.1\appsettings.Development.json
-C:\Users\Vinicius\projetos\globaltec\api-csharp\PessoaApi\PessoaApi\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\Vinicius\projetos\globaltec\api-csharp\PessoaApi\PessoaApi\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 C:\Users\Vinicius\projetos\globaltec\api-csharp\PessoaApi\PessoaApi\bin\Debug\netcoreapp3.1\PessoaApi.exe
+C:\Users\Vinicius\projetos\globaltec\api-csharp\PessoaApi\PessoaApi\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\Vinicius\projetos\globaltec\api-csharp\PessoaApi\PessoaApi\bin\Debug\netcoreapp3.1\PessoaApi.deps.json
 C:\Users\Vinicius\projetos\globaltec\api-csharp\PessoaApi\PessoaApi\bin\Debug\netcoreapp3.1\PessoaApi.runtimeconfig.json
 C:\Users\Vinicius\projetos\globaltec\api-csharp\PessoaApi\PessoaApi\bin\Debug\netcoreapp3.1\PessoaApi.runtimeconfig.dev.json
@@ -420,13 +427,13 @@ C:\Users\Vinicius\projetos\globaltec\api-csharp\PessoaApi\PessoaApi\bin\Debug\ne
 C:\Users\Vinicius\projetos\globaltec\api-csharp\PessoaApi\PessoaApi\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\Vinicius\projetos\globaltec\api-csharp\PessoaApi\PessoaApi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\Vinicius\projetos\globaltec\api-csharp\PessoaApi\PessoaApi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\Vinicius\projetos\globaltec\api-csharp\PessoaApi\PessoaApi\obj\Debug\netcoreapp3.1\PessoaApi.csprojAssemblyReference.cache
-C:\Users\Vinicius\projetos\globaltec\api-csharp\PessoaApi\PessoaApi\obj\Debug\netcoreapp3.1\staticwebassets\PessoaApi.StaticWebAssets.Manifest.cache
-C:\Users\Vinicius\projetos\globaltec\api-csharp\PessoaApi\PessoaApi\obj\Debug\netcoreapp3.1\staticwebassets\PessoaApi.StaticWebAssets.xml
-C:\Users\Vinicius\projetos\globaltec\api-csharp\PessoaApi\PessoaApi\obj\Debug\netcoreapp3.1\PessoaApi.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Vinicius\projetos\globaltec\api-csharp\PessoaApi\PessoaApi\obj\Debug\netcoreapp3.1\PessoaApi.AssemblyInfoInputs.cache
-C:\Users\Vinicius\projetos\globaltec\api-csharp\PessoaApi\PessoaApi\obj\Debug\netcoreapp3.1\PessoaApi.AssemblyInfo.cs
 C:\Users\Vinicius\projetos\globaltec\api-csharp\PessoaApi\PessoaApi\obj\Debug\netcoreapp3.1\PessoaApi.RazorTargetAssemblyInfo.cache
 C:\Users\Vinicius\projetos\globaltec\api-csharp\PessoaApi\PessoaApi\obj\Debug\netcoreapp3.1\PessoaApi.csproj.CopyComplete
-C:\Users\Vinicius\projetos\globaltec\api-csharp\PessoaApi\PessoaApi\obj\Debug\netcoreapp3.1\PessoaApi.dll
-C:\Users\Vinicius\projetos\globaltec\api-csharp\PessoaApi\PessoaApi\obj\Debug\netcoreapp3.1\PessoaApi.pdb
+C:\Users\Vinicius\projetos\globaltec\api-csharp\PessoaApi\PessoaApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Vinicius\projetos\globaltec\api-csharp\PessoaApi\PessoaApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\Vinicius\projetos\globaltec\api-csharp\PessoaApi\PessoaApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Vinicius\projetos\globaltec\api-csharp\PessoaApi\PessoaApi\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Vinicius\projetos\globaltec\api-csharp\PessoaApi\PessoaApi\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Vinicius\projetos\globaltec\api-csharp\PessoaApi\PessoaApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Vinicius\projetos\globaltec\api-csharp\PessoaApi\PessoaApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Vinicius\projetos\globaltec\api-csharp\PessoaApi\PessoaApi\obj\Debug\netcoreapp3.1\PessoaApi.MvcApplicationPartsAssemblyInfo.cache

@@ -1,17 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
-//using System.Diagnostics;
 using System.Linq;
-//using System.Net;
 using System.Threading.Tasks;
-//using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using PessoaApi.Models;
 using PessoaApi.CustomJsonResult;
+using Microsoft.AspNetCore.Authorization;
 
 namespace PessoaApi.Controllers
 {
+    // [Authorize]
+    // Comentado porque não consegui implementar a autorização
     [Route("api/Pessoas")]
     [ApiController]
     public class PessoasController : ControllerBase
@@ -22,6 +22,8 @@ namespace PessoaApi.Controllers
         {
             _context = context;
         }
+
+        #region CRUD
 
         #region CREATE
 
@@ -154,6 +156,8 @@ namespace PessoaApi.Controllers
         }
 
         #endregion DELETE
+
+        #endregion CRUD
 
         #region VALIDATE
 
