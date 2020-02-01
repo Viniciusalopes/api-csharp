@@ -1,0 +1,417 @@
+{
+	"info": {
+		"_postman_id": "50fcc692-7cfb-4955-8207-59226ea11cbd",
+		"name": "api-csharp",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "PostPessoa1",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"nome\": \"Vinicius Araujo Lopes\",\n    \"cpf\": \"45122147710\",\n    \"uf\": \"GO\",\n    \"dataNascimento\": \"1976-04-26T00:00:00\"\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44354/api/Pessoas/create",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44354",
+					"path": [
+						"api",
+						"Pessoas",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PostPessoa2",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"nome\": \"Josefa Mirella Drumond\",\n    \"cpf\": \"81850864608\",\n    \"uf\": \"GO\",\n    \"dataNascimento\": \"1994-03-26T00:00:00\"\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44354/api/Pessoas/create",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44354",
+					"path": [
+						"api",
+						"Pessoas",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PostPessoa3",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"nome\": \"Vanessa Isabelly Lopes\",\n    \"cpf\": \"03197507363\",\n    \"uf\": \"SP\",\n    \"dataNascimento\": \"1977-04-26T00:00:00\"\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44354/api/Pessoas/create",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44354",
+					"path": [
+						"api",
+						"Pessoas",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PostPessoa4",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"nome\": \"Márcio Ruan de Paula\",\n    \"cpf\": \"74728401499\",\n    \"uf\": \"MT\",\n    \"dataNascimento\": \"1984-03-26T00:00:00\"\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44354/api/Pessoas/create",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44354",
+					"path": [
+						"api",
+						"Pessoas",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetPessoas",
+			"protocolProfileBehavior": {
+				"followAuthorizationHeader": false,
+				"followRedirects": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IjEiLCJuYmYiOjE1ODA1MDA1NzEsImV4cCI6MTU4MTEwNTM3MSwiaWF0IjoxNTgwNTAwNTcxfQ.yCfAn7TdPMM2lEHhr41mnO8SI0rh7Qy5D8Hp-Qzg4kI",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "https://localhost:44354/api/Pessoas",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44354",
+					"path": [
+						"api",
+						"Pessoas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetPessoa",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "https://localhost:44354/api/Pessoas/1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44354",
+					"path": [
+						"api",
+						"Pessoas",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetPessoasUf-GO",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "https://localhost:44354/api/Pessoas/uf/GO",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44354",
+					"path": [
+						"api",
+						"Pessoas",
+						"uf",
+						"GO"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetPessoasUf-SP",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "https://localhost:44354/api/Pessoas/uf/SP",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44354",
+					"path": [
+						"api",
+						"Pessoas",
+						"uf",
+						"SP"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeletePessoa",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "https://localhost:44354/api/Pessoas/delete/2",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44354",
+					"path": [
+						"api",
+						"Pessoas",
+						"delete",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PutPessoa",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": 1,\n    \"nome\": \"Vinicius A. Lopes\",\n    \"cpf\" : \"85952966349\",\n    \"uf\": \"SP\",\n    \"dataNascimento\": \"1976-04-26T00:00:00\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44354/api/Pessoas/update/1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44354",
+					"path": [
+						"api",
+						"Pessoas",
+						"update",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Authenticate",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"username\": \"test\",\n\t\"password\": \"test\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44354/users/authenticate",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44354",
+					"path": [
+						"users",
+						"authenticate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Users",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IjEiLCJuYmYiOjE1ODA1MTU1MDgsImV4cCI6MTU4MTEyMDMwOCwiaWF0IjoxNTgwNTE1NTA4fQ.vIK4EcOOwwiWV3upE5iEBFrj8r-CmGh7CvbC7AUcTNY",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44354/users",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44354",
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
