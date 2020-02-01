@@ -21,8 +21,15 @@ API REST utilizando a linguagem C#, contendo as seguintes funcionalidades:
 autenticado.
 
 ### Observações
-O objeto de pessoas possui apenas código, nome, CPF, UF e data de nascimento.
-(Validação do token da requisição não foi implementada)
+- O objeto de pessoas possui apenas código, nome, CPF, UF e data de nascimento.
+
+- A validação do token da requisição não foi implementada
+
+- Não foi implementada uma camada View. Para testes, importar collection de requests no Postman.
+
+(Json with collection) [https://github.com/Viniciusalopes/api-csharp/blob/master/api-csharp.postman_collection.json]
+
+
 
 
 
