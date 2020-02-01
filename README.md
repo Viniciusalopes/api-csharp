@@ -1,6 +1,5 @@
 # api-csharp
 API REST utilizando a linguagem C#, contendo as seguintes funcionalidades:
-O objeto de pessoas possui apenas código, nome, CPF, UF e data de nascimento.
 
 ## Requisitos
 - [x] 1. Uma rota para autenticação;
@@ -21,7 +20,10 @@ O objeto de pessoas possui apenas código, nome, CPF, UF e data de nascimento.
 - [ ] 8. Todas rotas, com exceção da de autenticação, devem validar se a requisição possui um Token
 autenticado.
 
+### Observações
+O objeto de pessoas possui apenas código, nome, CPF, UF e data de nascimento.
 (Validação do token da requisição não foi implementada)
+
 
 
 
